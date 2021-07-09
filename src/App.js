@@ -7,6 +7,7 @@ import {
 import Header from "./components/Header/Header";
 import Registration from "./components/Registration/Registration";
 import Auth from "./components/Auth/Auth";
+import TricksPage from "./components/TricksPage/TricksPage";
 import './App.css';
 
 const App = () => {
@@ -25,8 +26,7 @@ const App = () => {
         <Route path='/tricks'
                render={() => {
                  return (localStorage.getItem('token')) ? (
-                  <div>
-                  </div>
+                   <TricksPage/>
                  ) : (
                    <Redirect from="/tricks" to="/logIn"/>
                  );
