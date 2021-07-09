@@ -1,0 +1,46 @@
+.all-sort-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 22vh;
+  width: 85vw;
+  background: #C5E9FF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 0 2.5vw;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+
+  .container-sort {
+    width: 35%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .container-filter {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .text {
+      font-size: 2rem;
+
+    }
+  }
+
+  .sort {
+    min-width: 15rem;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+
+  .MuiOutlinedInput-input {
+    background: white;
+    border-radius: 4px;
+  }
+
+}
+
