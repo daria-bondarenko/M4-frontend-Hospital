@@ -1,0 +1,31 @@
+.mainContainer {
+  display: flex;
+  margin-top: 4rem;
+
+  img {
+    width: 30rem;
+  }
+
+  .whiteContainer {
+    min-height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding: 3rem;
+    margin-left: 3rem;
+    width: 20rem;
+    height: 24rem;
+  }
+
+  form {
+    min-height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.title {
+  text-align: start;
+}

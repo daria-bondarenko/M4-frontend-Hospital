@@ -1,0 +1,30 @@
+.container-list {
+  overflow: auto;
+  height: 40vh;
+
+  .MuiTableContainer-root {
+    width: 90vw;
+  }
+  
+  .head {
+    background: #3F51B5;
+  }
+
+  .MuiTableCell-head {
+    color: white;
+  }
+
+  .size-complain {
+    max-width: 25rem;
+  }
+
+  .size-cell {
+    max-width: 2rem;
+    word-break: break-word;
+  }
+
+  .MuiButton-containedPrimary {
+    margin-right: 10px;
+  }
+}
+

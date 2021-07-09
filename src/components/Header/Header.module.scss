@@ -1,0 +1,39 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  width: 85vw;
+  background: #C5E9FF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 0 2.5vw;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+
+  .secondContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    p {
+      padding-left: 4rem;
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+  }
+
+  .exitNon {
+    display: none;
+    text-decoration: none;
+  }
+
+  .exit {
+    text-decoration: none;
+  }
+}
+

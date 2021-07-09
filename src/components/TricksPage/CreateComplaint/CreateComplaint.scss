@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  width: 85vw;
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 0 2.5vw;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+
+  .MuiOutlinedInput-input {
+    background-color: white;
+    border-radius: 4px;
+  }
+
+  .MuiSelect-outlined.MuiSelect-outlined {
+    width: 12vw;
+  }
+
+  form {
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+
+    .input-complaint {
+      width: 25vw;
+    }
+  }
+}
