@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import Registration from "./components/Registration/Registration";
+import Auth from "./components/Auth/Auth";
 import './App.css';
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
       <Switch>
         <Route path='/logIn'>
           <Header title={'Войти в систему'} button={false}/>
-
+          <Auth/>
         </Route>
         <Route path='/signUp'>
           <Header title={'Зарегистрироваться в системе'} button={false}/>
@@ -24,8 +25,8 @@ const App = () => {
         <Route path='/tricks'
                render={() => {
                  return (localStorage.getItem('token')) ? (
-                   <div>
-                   </div>
+                  <div>
+                  </div>
                  ) : (
                    <Redirect from="/tricks" to="/logIn"/>
                  );
